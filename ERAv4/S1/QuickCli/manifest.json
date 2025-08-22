@@ -1,0 +1,21 @@
+{
+  "name": "Quick CLI",
+  "description": "A terminal-like popup to run web aliases and OS commands via native messaging.",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAop1yevUIi/ogP/OTleZsBi77kjkn7m95VTfnJAN/dmgPz/RouZMk0xWsR8ZK1HXtGzV+WED3dAB7d89/ZzEOeoZvqrmfsIzxrLzn7OQ9zX5bgyAnQ/hBYBdbnXFNzOWav5nADUevrxYJN5ZPTfxs5OxJeGQIHTj4YwpJ3px/Kt7Jtvb62o9NFS0zdjGJrBEm+ZpV3GqPQLz9GNy1YCBgR/ryCgxFUtvBn1QFGbGmCd/QavHHk+YLDL5REciSsHSwtXIxPpm0iqZCmt6Fk2Rn8xhyrxLD9lNVQdIClZqDstql999O1PXCcQVyqQhUNeLT48cj1pjAijM+G1DVg6m5cwIDAQAB",
+  "permissions": [
+    "storage",
+    "tabs",
+    "nativeMessaging"
+  ],
+
+  "action": {
+    "default_title": "Quick CLI",
+    "default_popup": "popup.html"
+  },
+
+  "background": {
+    "service_worker": "background.js"
+  }
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Quick CLI</title>
+  <link rel="stylesheet" href="popup.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+  <div class="wrap">
+    <div class="header">
+      <div class="title">Quick CLI</div>
+      <div class="actions">
+        <button id="clearBtn" title="Clear history">Clear</button>
+        <button id="exitBtn" title="Close popup">Exit</button>
+      </div>
+    </div>
+
+    <pre id="output" class="output" aria-live="polite"></pre>
+
+    <div class="cmdbar">
+      <span class="prompt">$</span>
+      <input id="commandInput" type="text" autocomplete="off" placeholder="Type a command and press Enter or click Execute…" />
+      <button id="executeBtn">Execute</button>
+    </div>
+    <div class="hint">
+      <b>Aliases:</b> google &lt;query&gt;, youtube &lt;query&gt;, github, docs, sheets, slides, etc.
+      <br />
+      <b>OS examples:</b> pwd, ls, whoami
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
