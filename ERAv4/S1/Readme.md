@@ -14,7 +14,7 @@ Quick CLI Browser Extension
     Stays open until you click Exit
 
 📂 Project Structure
-    quick-cli-extension/
+    QuickCli/
     │── manifest.json
     │── background.js
     │── popup.html
@@ -27,7 +27,7 @@ Quick CLI Browser Extension
 ⚙️ Installation on Chrome
 1. Clone or Download
     git clone <repo_url>
-    cd quick-cli-extension
+    cd QuickCli
 
 2. Enable Developer Mode
     Open chrome://extensions/
