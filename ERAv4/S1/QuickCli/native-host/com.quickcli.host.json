@@ -1,0 +1,10 @@
+{
+  "name": "com.quickcli.host",
+  "description": "Quick CLI Native Messaging Host (Chrome)",
+  "path": "/Users/isorapad/Documents/Programming/Regular/TESTPYTHON/ERA/v4/s1/Quickcli/native-host/host.py",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://gpgecelcnohmcfkfmjpiehiajpeniobg/"
+  ]
+}
+
