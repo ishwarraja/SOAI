@@ -6,8 +6,11 @@ Achieve ≥ 99.4% validation/test accuracy (on a 50k/10k split).
 Use less than 20k parameters.
 Train for less than 20 epochs.
 Apply concepts discussed in the last 5 lectures:
+
     Convolution layers (3x3, 1x1)
+    
     MaxPooling
+    
     Transition layers
     Receptive field awareness
     Batch Normalization
