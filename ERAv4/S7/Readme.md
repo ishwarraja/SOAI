@@ -17,7 +17,7 @@ This repository contains a compact convolutional neural network and training scr
 - Aim for **>= 85% accuracy** (requires sufficient epochs + GPU). Model kept **< 200k parameters**.
 
 ## Files
-- `S7.ipynb` — main model + training script (ready-to-run).
+- `S7.ipynb / cifar10_dilated_ds.py` — main model + training script (ready-to-run).
 - `README.md` — this file.
 
 ## How the architecture maps to C1 C2 C3 C4
@@ -57,5 +57,5 @@ OR
 
 ```bash
 pip install torch torchvision albumentations tqdm
-python S7.py --epochs 180 --batch 128 --base_ch 24 --lr 0.1 --workers 4 --save best.pth
+python cifar10_dilated_ds.py --epochs 180 --batch 128 --base_ch 24 --lr 0.1 --workers 4 --save best.pth
 
