@@ -51,6 +51,10 @@ By default `base_ch=24`. This keeps total params under 200k (printed at script s
 - Use `--base_ch` to trade param count vs capacity (watch `Model params` printed at start).
 
 ## Usage
+Directly execute on google collab
+
+OR
+
 ```bash
 pip install torch torchvision albumentations tqdm
 python S7.py --epochs 180 --batch 128 --base_ch 24 --lr 0.1 --workers 4 --save best.pth
