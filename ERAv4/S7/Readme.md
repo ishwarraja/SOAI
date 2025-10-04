@@ -45,7 +45,7 @@ By default `base_ch=24`. This keeps total params under 200k (printed at script s
 
 ## Training tips to reach 85%+
 - Use a GPU. On CPU the run will be extremely slow.
-- Train for at least **150–250 epochs** (experiment).
+- Train for at least **150–300 epochs** (experiment).
 - Consider adding MixUp/CutMix and a tiny label smoothing to push accuracy up.
 - Increase batch size (if GPU memory allows) and tune learning rate accordingly.
 - Use `--base_ch` to trade param count vs capacity (watch `Model params` printed at start).
